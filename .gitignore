@@ -1,26 +1,33 @@
-   # Environments
-   .env
-   .venv
-   env/
-   venv/
-   ENV/
-   env.bak/
-   venv.bak/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-   # Python
-   __pycache__/
-   *.py[cod]
-   *$py.class
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-   # Database
-   *.db
-   *.sqlite3
+# Database
+*.db
+*.sqlite3
 
-   # OS generated files
-   .DS_Store
-   .DS_Store?
-   ._*
-   .Spotlight-V100
-   .Trashes
-   ehthumbs.db
-   Thumbs.db
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE specific (uncomment if needed)
+# .vscode/
+# .idea/
